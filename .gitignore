@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+/Default/
+/Debug/
+
+# Other settings
+/.settings/
