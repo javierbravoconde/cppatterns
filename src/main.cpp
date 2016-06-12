@@ -7,9 +7,18 @@
 //============================================================================
 
 #include <iostream>
+#include "Person.h"
 using namespace std;
 
+void runPimp()
+{
+	Person aPerson;
+	aPerson.setAge(5);
+	std::cout << aPerson.getAge() << std::endl;
+
+}
+
 int main() {
-	cout << "!!!Hello World   cpp !!!" << endl; // prints !!!Hello World!!!
+	std::cout << "!!!Hello World!!!" << std::endl;
 	return 0;
 }
