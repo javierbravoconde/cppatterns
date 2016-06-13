@@ -10,6 +10,9 @@
 
 #include <string>
 
+namespace pimp
+{
+
 class Person {
 public:
 	Person();
@@ -26,4 +29,5 @@ private:
 	Impl* _pImpl;
 };
 
+}
 #endif /* PERSON_H_ */

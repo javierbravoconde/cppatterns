@@ -7,6 +7,9 @@
 
 #include "Person.h"
 
+namespace pimp
+{
+
 
 struct Person::Impl {
   std::string name;
@@ -43,4 +46,4 @@ const std::string& Person::getName() const
 	return this->_pImpl->name;
 }
 
-
+}

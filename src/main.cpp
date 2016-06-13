@@ -8,17 +8,30 @@
 
 #include <iostream>
 #include "Person.h"
+
+#include "../pimp_scoped/PersonScoped.h"
 using namespace std;
 
 void runPimp()
 {
-	Person aPerson;
+	std::cout << "running: runPimp" << std::endl;
+	pimp::Person aPerson;
 	aPerson.setAge(5);
 	std::cout << aPerson.getAge() << std::endl;
 
 }
 
+void runPimpScoped()
+{
+	std::cout << "running: runPimpScoped" << std::endl;
+	pimpScoped::Person aPerson;
+	aPerson.setAge(6);
+	std::cout << aPerson.getAge() << std::endl;
+
+}
+
 int main() {
-	std::cout << "!!!Hello World!!!" << std::endl;
+	runPimp();
+	runPimpScoped();
 	return 0;
 }
