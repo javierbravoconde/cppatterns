@@ -8,6 +8,9 @@
 #ifndef STRATEGY_BOOSTFUNC_BEHAVIORB_H_
 #define STRATEGY_BOOSTFUNC_BEHAVIORB_H_
 
+namespace strategy_boostfunc
+{
+
 class BehaviorB {
 public:
 	BehaviorB(){}
@@ -16,4 +19,5 @@ public:
 
 };
 
+}
 #endif /* STRATEGY_BOOSTFUNC_BEHAVIORB_H_ */

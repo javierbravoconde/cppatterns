@@ -12,6 +12,9 @@
 #include <string>
 #include <boost/function.hpp>
 
+namespace strategy_boostfunc
+{
+
 class HostClass {
 public:
 	HostClass(){}
@@ -24,5 +27,7 @@ public:
 
 	boost::function<std::string()> _specificBehavior;
 };
+
+}
 
 #endif /* STRATEGY_BOOSTFUNC_HOSTCLASS_H_ */

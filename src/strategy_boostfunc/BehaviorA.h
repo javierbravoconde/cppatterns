@@ -10,11 +10,16 @@
 
 #include <string>
 
+namespace strategy_boostfunc
+{
+
 class BehaviorA {
 public:
 	BehaviorA(){}
 	virtual ~BehaviorA(){}
 	std::string getValueBehaviorA(){return "valueA";}
 };
+
+}
 
 #endif /* STRATEGY_BOOSTFUNC_BEHAVIORA_H_ */
