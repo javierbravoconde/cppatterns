@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include "Person.h"
+#include "PersonScoped.h"
 
-#include "../pimp_scoped/PersonScoped.h"
 using namespace std;
 
 void runPimp()
